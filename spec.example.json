@@ -1,0 +1,66 @@
+{
+  "title": "Sous les Néons de Shibuya",
+  "genre": "Romance",
+  "premise": "À Tokyo, une traductrice française en plein doute rencontre un illustrateur japonais discret. Entre cafés minuscules, trains de nuit et pluies d’été, leur histoire naît dans les interstices de la ville—avec une échéance qui menace de tout interrompre.",
+  "language": "fr",
+  "n_chapters": 2,
+  "target_words_per_chapter": 1400,
+  "style_guide": "Romantique contemporain, doux et cinématographique. Tokyo très tangible (sons, odeurs, lumières, gestes). Dialogues courts et sincères. Éviter les clichés touristiques. Émotion progressive, retenue, puis bascule claire au climax.",
+  "constraints": [
+    "Les deux protagonistes doivent se rencontrer dans les 400 premiers mots du chapitre 1",
+    "Un objet-symbole doit apparaître au chapitre 1 et prendre un nouveau sens au chapitre 2",
+    "Chaque chapitre doit faire progresser la relation (pas de scène “statique”)",
+    "Une révélation importante doit survenir au milieu du chapitre 2",
+    "Fin ouverte mais émotionnellement satisfaisante (choix assumé, promesse claire)"
+  ],
+  "seed_elements": {
+    "main_character": {
+      "name": "Clara",
+      "role": "Traductrice littéraire freelance",
+      "traits": [
+        "Lucide",
+        "Réservée",
+        "Hypersensible aux détails"
+      ],
+      "wound": "Elle a peur de s’attacher parce qu’elle repart toujours, par choix ou par nécessité.",
+      "desire": "Se sentir enfin à sa place, sans se trahir."
+    },
+    "love_interest": {
+      "name": "Ren",
+      "role": "Illustrateur pour des couvertures de romans et affiches de concerts",
+      "traits": [
+        "Calme",
+        "Ironique avec douceur",
+        "Loyal"
+      ],
+      "wound": "Il a déjà laissé passer une histoire par prudence, et s’en veut encore.",
+      "desire": "Oser dire ce qu’il veut, sans attendre que ce soit “le bon moment”."
+    },
+    "setting": {
+      "name": "Tokyo (Shibuya / Shimokitazawa / Asakusa)",
+      "description": "Une ville qui oscille entre foule et silence: ruelles étroites, cafés à une table, rails et passerelles, pluie tiède sur les néons, matin clair au bord de la Sumida."
+    },
+    "macguffin": {
+      "name": "Le ticket de train plié",
+      "description": "Un ticket froissé glissé dans un livre, retrouvé par hasard: il devient la preuve d’un rendez-vous manqué—puis l’amorce d’un rendez-vous choisi."
+    },
+    "supporting_cast": [
+      {
+        "name": "Mika",
+        "role": "Barista à Shimokitazawa",
+        "function": "Confidente pragmatique; elle pousse Clara à arrêter de se cacher derrière le travail."
+      },
+      {
+        "name": "Kenji",
+        "role": "Ami musicien de Ren",
+        "function": "Déclencheur de scènes (concert intimiste, invitation); miroir du risque émotionnel."
+      }
+    ],
+    "themes": [
+      "Le courage de dire",
+      "Les rendez-vous manqués et ceux qu’on choisit",
+      "La ville comme troisième personnage",
+      "L’amour sans possession"
+    ]
+  }
+}

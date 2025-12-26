@@ -1,0 +1,19 @@
+# Environnements
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+
+# Exports générés
+exports/
