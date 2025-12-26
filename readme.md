@@ -134,7 +134,14 @@ Chaque agent est un **worker** qui :
 3. exécute sa logique,
 4. republie de nouveaux événements.
 
-#### Option A — Lancer les agents un par un
+
+#### Option A — Lancer tous les agents d’un coup
+
+```bash
+book-agents run-all
+```
+
+#### Option B — Lancer les agents un par un ( pour debug )
 
 Ouvrez **6 terminaux** et lancez :
 
@@ -145,12 +152,6 @@ book-agents run-worker writer
 book-agents run-worker continuity
 book-agents run-worker editor
 book-agents run-worker bible
-```
-
-#### Option B — Lancer tous les agents d’un coup
-
-```bash
-book-agents run-all
 ```
 
 ### Lancer l’UI d’observabilité
