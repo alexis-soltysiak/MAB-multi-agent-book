@@ -85,7 +85,7 @@ source .venv/bin/activate
 
 #### 4) Installer le projet et ses dépendances
 
-Ce projet utilise une configuration **PEP 621** (`pyproject.toml`). Il n’y a donc **pas de **``.
+Ce projet utilise une configuration **PEP 621** (`pyproject.toml`). Il n’y a donc **pas de requirement.txt**
 
 Installation recommandée (mode développement) :
 
@@ -108,10 +108,6 @@ Cela permet :
 
 allez dans votre projet 
 
-```bash
-docker compose down -v
-docker compose up -d
-```
 ### Démarrer l’infra (Redis + Postgres)
 
 Réinitialisation complète (volumes inclus) :
